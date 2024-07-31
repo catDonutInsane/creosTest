@@ -1,9 +1,0 @@
-.wrapper{
-    display: flex;
-/* align-items: center; */
-justify-content: center;
-}
-.wrapper_comments{
-    display: flex;
-    flex-direction: column;
-}
