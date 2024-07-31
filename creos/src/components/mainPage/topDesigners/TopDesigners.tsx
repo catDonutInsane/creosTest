@@ -14,7 +14,6 @@ export const TopDesigners = () => {
     useEffect(() => {
         let r: MedianType[] = []
         if (count) {
-
             for (let i = 1; i < Math.ceil(count/ 128) + 1; i++) {
                 axios.get(`https://sandbox.creos.me/api/v1/designer/?limit=128&${i == 1 ? "" : `page=${i}`}`)
                     .then(res => res.data.results)
